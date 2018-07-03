@@ -1,0 +1,15 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "mosambee-plugin": {
+      "PACKAGE_NAME": "com.mosambee.test"
+    }
+  },
+  "dependent_plugins": {}
+}

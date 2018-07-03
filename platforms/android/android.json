@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"MosambeePlugin\"><param name=\"android-package\" value=\"com.stanleyidesis.cordova.plugin.MosambeePlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "mosambee-plugin": {
+      "PACKAGE_NAME": "com.mosambee.test"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "mosambee-plugin.mosambeePlugin",
+      "file": "plugins/mosambee-plugin/www/mosambeePlugin.js",
+      "pluginId": "mosambee-plugin",
+      "clobbers": [
+        "window.plugins.mosambeePlugin"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "mosambee-plugin": "0.0.1"
+  }
+}
